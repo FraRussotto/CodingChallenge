@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 70%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.limlogo {
+    text-align: center;
+
+}
+
+.limlogo img {
+    width: 200px;
+    height: auto;
+}
+
+.limlogo h2{
+    color: limegreen;
+    margin-bottom: 5px;
+}
+
+.bannerVerde {
+    text-align: center;
+    padding: 7px;
+    background-color: limegreen;
+}
+
+.containerBlocchiMonopattino {
+    color: white;
+    margin-top: 20px;
+}
+
+
+.containerBlocchiMonopattino .blocco {
+    margin-bottom: 40px;
+}
+
+
+.containerBlocchiMonopattino .blocco h3,
+.containerBlocchiMonopattino .blocco p{
+    margin: 5px 0;
+ }
+
+.containerBlocchiMonopattino .blocco p{
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.containerBlocchiMonopattino .blocco .caricaGroup p.title{
+    margin-bottom: 3px;
+}
+
+.statoCarica {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.statoCarica.green{
+    background-color: green;
+    width: 50%;
+}
+
+.statoCarica.orange{
+    background-color: orange;
+    width: 30%;
+}
+
+.statoCarica.red{
+    background-color: red;
+    width: 15%;
+}
